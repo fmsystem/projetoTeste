@@ -8,11 +8,11 @@ uses
 
 type
   TForm2 = class(TForm)
-    Label1: TLabel;
     Edit1: TEdit;
     Button1: TButton;
     Panel1: TPanel;
     Button2: TButton;
+    Panel2: TPanel;
   private
     { Private declarations }
   public
