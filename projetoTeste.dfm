@@ -35,6 +35,7 @@ object Form2: TForm2
     Width = 185
     Height = 41
     Caption = 'Panel1'
+  end	
   object Button2: TButton
     Left = 8
     Top = 169
