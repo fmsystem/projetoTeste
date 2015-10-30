@@ -8,6 +8,7 @@ uses
 
 type
   TForm2 = class(TForm)
+    Label1: TLabel;
   private
     { Private declarations }
   public
