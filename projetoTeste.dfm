@@ -43,4 +43,4 @@ object Form2: TForm2
     Caption = 'Button2'
     TabOrder = 2
   end
-end
+end.
