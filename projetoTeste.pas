@@ -8,7 +8,12 @@ uses
 
 type
   TForm2 = class(TForm)
+<<<<<<< HEAD
     Label1: TLabel;
+=======
+    Edit1: TEdit;
+    Button1: TButton;
+>>>>>>> refs/remotes/origin/master
   private
     { Private declarations }
   public

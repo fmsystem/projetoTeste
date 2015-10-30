@@ -13,11 +13,29 @@ object Form2: TForm2
   OldCreateOrder = False
   PixelsPerInch = 96
   TextHeight = 13
+<<<<<<< HEAD
   object Label1: TLabel
     Left = 104
     Top = 72
     Width = 28
     Height = 13
     Caption = 'Felipe'
+=======
+  object Edit1: TEdit
+    Left = 152
+    Top = 32
+    Width = 121
+    Height = 21
+    TabOrder = 0
+    Text = 'Edit1'
+  end
+  object Button1: TButton
+    Left = 364
+    Top = 169
+    Width = 75
+    Height = 25
+    Caption = 'Button1'
+    TabOrder = 1
+>>>>>>> refs/remotes/origin/master
   end
 end
