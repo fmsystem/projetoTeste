@@ -13,6 +13,7 @@ type
     Panel1: TPanel;
     Button2: TButton;
     Panel2: TPanel;
+    Button3: TButton;
   private
     { Private declarations }
   public
