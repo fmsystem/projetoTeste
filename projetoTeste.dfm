@@ -35,6 +35,12 @@ object Form2: TForm2
     Width = 185
     Height = 41
     Caption = 'Panel1'
+  object Button2: TButton
+    Left = 8
+    Top = 169
+    Width = 75
+    Height = 25
+    Caption = 'Button2'
     TabOrder = 2
   end
 end
