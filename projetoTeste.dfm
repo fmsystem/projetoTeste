@@ -30,8 +30,8 @@ object Form2: TForm2
     TabOrder = 1
   end
   object Panel1: TPanel
-    Left = 96
-    Top = 64
+    Left = 232
+    Top = 72
     Width = 185
     Height = 41
     Caption = 'Panel1'
