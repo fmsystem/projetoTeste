@@ -14,6 +14,8 @@ object Form1: TForm1
   PixelsPerInch = 96
   TextHeight = 13
   object Button1: TButton
+    Left = 184
+    Top = 64
     Left = 80
     Top = 32
     Width = 75
