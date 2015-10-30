@@ -10,6 +10,7 @@ type
   TForm2 = class(TForm)
     Edit1: TEdit;
     Button1: TButton;
+    Button2: TButton;
   private
     { Private declarations }
   public
