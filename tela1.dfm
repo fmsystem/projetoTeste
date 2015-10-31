@@ -20,6 +20,13 @@ object Form2: TForm2
     Height = 13
     Caption = 'Label1'
   end
+  object Label2: TLabel
+    Left = 96
+    Top = 144
+    Width = 31
+    Height = 13
+    Caption = 'Label2'
+  end
   object Button1: TButton
     Left = 176
     Top = 24
@@ -27,5 +34,13 @@ object Form2: TForm2
     Height = 25
     Caption = 'Button1'
     TabOrder = 0
+  end
+  object Panel1: TPanel
+    Left = 24
+    Top = 80
+    Width = 185
+    Height = 41
+    Caption = 'Panel1'
+    TabOrder = 1
   end
 end
