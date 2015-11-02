@@ -12,6 +12,7 @@ type
     { Private declarations }
   public
     { Public declarations }
+    procedure TesteFab;
   end;
 
 var
@@ -20,5 +21,12 @@ var
 implementation
 
 {$R *.dfm}
+
+{ TForm2 }
+
+procedure TForm2.TesteFab;
+begin
+
+end;
 
 end.
