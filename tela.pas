@@ -14,6 +14,7 @@ type
     { Public declarations }
     procedure TesteFab;
     procedure TesteOut;
+    procedure TesteOut2;
   end;
 
 var
@@ -31,6 +32,11 @@ begin
 end;
 
 procedure TForm2.TesteOut;
+begin
+
+end;
+
+procedure TForm2.TesteOut2;
 begin
 
 end;
