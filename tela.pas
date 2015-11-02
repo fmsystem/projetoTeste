@@ -16,6 +16,7 @@ type
     procedure TesteOut;
     procedure TesteOut2;
     procedure TesteFab2;
+    procedure TesteOut3;
   end;
 
 var
@@ -43,6 +44,11 @@ begin
 end;
 
 procedure TForm2.TesteOut2;
+begin
+
+end;
+
+procedure TForm2.TesteOut3;
 begin
 
 end;
