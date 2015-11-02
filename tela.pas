@@ -21,7 +21,7 @@ type
     procedure TesteOut4;
     procedure TesteFab4;
     procedure TesteOut5;
-
+    procedure TesteFab5;
   end;
 
 var
@@ -49,6 +49,11 @@ begin
 end;
 
 procedure TForm2.TesteFab4;
+begin
+
+end;
+
+procedure TForm2.TesteFab5;
 begin
 
 end;
