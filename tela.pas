@@ -12,6 +12,7 @@ type
     Button2: TButton;
     Button3: TButton;
     Panel1: TPanel;
+    Button4: TButton;
   private
     { Private declarations }
   public
