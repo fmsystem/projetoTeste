@@ -15,6 +15,7 @@ type
     { Private declarations }
   public
     procedure Felipe;
+    procedure Panel1Click(Sender: TObject);
   end;
 
 var
@@ -30,6 +31,11 @@ begin
 end;
 
 m2 }
+
+procedure TForm2.Panel1Click(Sender: TObject);
+begin
+  Felipe;
+end;
 
 procedure TForm2.Felipe;
 begin
