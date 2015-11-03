@@ -13,4 +13,10 @@ object Form2: TForm2
   OldCreateOrder = False
   PixelsPerInch = 96
   TextHeight = 13
+  object SpeedButton1: TSpeedButton
+    Left = 246
+    Top = 8
+    Width = 193
+    Height = 22
+  end
 end
