@@ -11,7 +11,7 @@ type
   private
     { Private declarations }
   public
-    procedure felipe;
+    { Public declarations }
   end;
 
 var
@@ -20,12 +20,5 @@ var
 implementation
 
 {$R *.dfm}
-
-{ TForm2 }
-
-procedure TForm2.felipe;
-begin
-ShowMessage('OK');
-end;
 
 end.
