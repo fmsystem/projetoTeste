@@ -42,8 +42,15 @@ object Form2: TForm2
     Top = 101
     Width = 431
     Height = 41
-    Caption = 'PanelOutro'
     Caption = 'PanelFabio'
     TabOrder = 3
+  end
+  object Button4: TButton
+    Left = 8
+    Top = 148
+    Width = 431
+    Height = 25
+    Caption = 'ButtonOutro'
+    TabOrder = 4
   end
 end
