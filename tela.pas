@@ -13,7 +13,7 @@ type
   private
     { Private declarations }
   public
-    { Public declarations }
+    procedure Felipe;
   end;
 
 var
@@ -22,5 +22,12 @@ var
 implementation
 
 {$R *.dfm}
+
+{ TForm2 }
+
+procedure TForm2.Felipe;
+begin
+ShowMessage('kkkk');
+end;
 
 end.
