@@ -18,7 +18,14 @@ object Form2: TForm2
     Top = 8
     Width = 193
     Height = 22
-end
+  end
+  object Label1: TLabel
+    Left = 368
+    Top = 152
+    Width = 31
+    Height = 13
+    Caption = 'Label1'
+  end
   object Button1: TButton
     Left = 184
     Top = 152
