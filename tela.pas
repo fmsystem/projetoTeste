@@ -3,7 +3,8 @@ unit tela;
 interface
 
 uses
-  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants,
+  System.Classes, Vcl.Graphics,
   Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.Buttons, Vcl.StdCtrls;
 
 
@@ -14,19 +15,28 @@ type
     Memo1: TMemo;
     Button1: TButton;
 
-  private
-    { Private declarations }
   public
     procedure NAUTICO;
+    procedure Button1Click(Sender: TObject);
+	Procedure PeloSportTudo;
+  private
+       
   end;
 
 implementation
 
 {$R *.dfm}
-
-{ TForm2.TForm2 }
-
 { TForm2 }
+
+procedure TForm2.Button1Click(Sender: TObject);
+begin
+  PeloSportTudo;
+end;
+
+procedure TForm2.PeloSportTudo;
+begin
+  ShowMessage('Cazá,Cazá');
+end;
 
 procedure TForm2.NAUTICO;
 begin
