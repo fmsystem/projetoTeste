@@ -4,12 +4,13 @@ interface
 
 uses
   Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
-  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.ExtCtrls;
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.ExtCtrls, Vcl.StdCtrls;
 
 type
   TForm2 = class(TForm)
     Panel1: TPanel;
     Panel2: TPanel;
+    Button1: TButton;
   private
     { Private declarations }
   public
@@ -23,7 +24,12 @@ implementation
 
 {$R *.dfm}
 
-{ TForm2 }
+{ TForprocedure TForm2.Panel1Click(Sender: TObject);
+begin
+
+end;
+
+m2 }
 
 procedure TForm2.Felipe;
 begin

@@ -31,4 +31,12 @@ object Form2: TForm2
     ParentBackground = False
     TabOrder = 0
   end
+  object Button1: TButton
+    Left = 8
+    Top = 72
+    Width = 431
+    Height = 57
+    Caption = 'Button1'
+    TabOrder = 2
+  end
 end
