@@ -4,12 +4,12 @@ interface
 
 uses
   Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
-  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.Buttons;
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.Buttons, Vcl.StdCtrls;
 
 type
   TForm2 = class(TForm)
     SpeedButton1: TSpeedButton;
-  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls;
+    Label1: TLabel;
 
 type
   TForm2 = class(TForm)
@@ -21,7 +21,6 @@ type
   end;
 
 var
-  Form2: TForm2;
 
 implementation
 
