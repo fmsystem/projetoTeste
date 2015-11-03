@@ -9,8 +9,8 @@ uses
 type
   TForm2 = class(TForm)
     SpeedButton1: TSpeedButton;
+    Label1: TLabel;
     Memo1: TMemo;
-
 
 type
   TForm2 = class(TForm)
