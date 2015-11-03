@@ -42,7 +42,6 @@ object Form2: TForm2
     Top = 101
     Width = 431
     Height = 41
-    Caption = 'PanelOutro'
     Caption = 'PanelFabio'
     TabOrder = 3
   end
