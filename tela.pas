@@ -13,6 +13,7 @@ type
   public
     { Public declarations }
     procedure TesteFabio;
+    procedure TesteOutro;
   end;
 
 var
@@ -25,6 +26,11 @@ implementation
 { TForm2 }
 
 procedure TForm2.TesteFabio;
+begin
+
+end;
+
+procedure TForm2.TesteOutro;
 begin
 
 end;
