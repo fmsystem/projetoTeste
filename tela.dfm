@@ -13,4 +13,22 @@ object Form2: TForm2
   OldCreateOrder = False
   PixelsPerInch = 96
   TextHeight = 13
+  object Panel2: TPanel
+    Left = 136
+    Top = 56
+    Width = 257
+    Height = 121
+    Color = clWhite
+    ParentBackground = False
+    TabOrder = 1
+  end
+  object Panel1: TPanel
+    Left = 40
+    Top = 8
+    Width = 217
+    Height = 129
+    Color = clRed
+    ParentBackground = False
+    TabOrder = 0
+  end
 end
