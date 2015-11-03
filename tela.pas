@@ -9,6 +9,11 @@ uses
 type
   TForm2 = class(TForm)
     SpeedButton1: TSpeedButton;
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls;
+
+type
+  TForm2 = class(TForm)
+    Button1: TButton;
   private
     { Private declarations }
   public
