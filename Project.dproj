@@ -1,6 +1,6 @@
 ﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
     <PropertyGroup>
-        <ProjectGuid>{FBCFE47E-65B2-4908-AC45-DE0B6B11311C}</ProjectGuid>
+        <ProjectGuid>{6E3F24D3-BBF0-4307-A5E9-67E6B6F8AFA4}</ProjectGuid>
         <ProjectVersion>18.0</ProjectVersion>
         <FrameworkType>VCL</FrameworkType>
         <MainSource>Project.dpr</MainSource>
@@ -47,8 +47,8 @@
     </PropertyGroup>
     <PropertyGroup Condition="'$(Base)'!=''">
         <SanitizedProjectName>Project</SanitizedProjectName>
-        <Icon_MainIcon>$(BDS)\bin\delphi_PROJECTICON.ico</Icon_MainIcon>
         <DCC_Namespace>System;Xml;Data;Datasnap;Web;Soap;Vcl;Vcl.Imaging;Vcl.Touch;Vcl.Samples;Vcl.Shell;$(DCC_Namespace)</DCC_Namespace>
+        <Icon_MainIcon>$(BDS)\bin\delphi_PROJECTICON.ico</Icon_MainIcon>
         <DCC_DcuOutput>.\$(Platform)\$(Config)</DCC_DcuOutput>
         <DCC_ExeOutput>.\$(Platform)\$(Config)</DCC_ExeOutput>
         <DCC_E>false</DCC_E>
@@ -58,11 +58,11 @@
         <DCC_K>false</DCC_K>
     </PropertyGroup>
     <PropertyGroup Condition="'$(Base_Win32)'!=''">
-        <VerInfo_Keys>CompanyName=;FileDescription=;FileVersion=1.0.0.0;InternalName=;LegalCopyright=;LegalTrademarks=;OriginalFilename=;ProductName=;ProductVersion=1.0.0.0;Comments=</VerInfo_Keys>
-        <VerInfo_IncludeVerInfo>true</VerInfo_IncludeVerInfo>
         <Manifest_File>$(BDS)\bin\default_app.manifest</Manifest_File>
+        <VerInfo_IncludeVerInfo>true</VerInfo_IncludeVerInfo>
         <DCC_Namespace>Winapi;System.Win;Data.Win;Datasnap.Win;Web.Win;Soap.Win;Xml.Win;Bde;$(DCC_Namespace)</DCC_Namespace>
         <VerInfo_Locale>1033</VerInfo_Locale>
+        <VerInfo_Keys>CompanyName=;FileDescription=;FileVersion=1.0.0.0;InternalName=;LegalCopyright=;LegalTrademarks=;OriginalFilename=;ProductName=;ProductVersion=1.0.0.0;Comments=</VerInfo_Keys>
         <DCC_UsePackage>DBXSqliteDriver;RESTComponents;DataSnapServerMidas;DBXDb2Driver;DBXInterBaseDriver;FortesReportCE_Win32_DXE9_vcl;vclactnband;frxe23;vclFireDAC;ACBr_TEFD;BMUiniDbGrid;emsclientfiredac;DataSnapFireDAC;svnui;tethering;FireDACADSDriver;DBXMSSQLDriver;DatasnapConnectorsFreePascal;FireDACMSSQLDriver;vcltouch;ACBr_NFe;vcldb;bindcompfmx;svn;Intraweb;DBXOracleDriver;Rave110VCL;inetdb;ACBr_NFeDanfeESCPOS;ACBr_Diversos;ACBr_TXTComum;FmxTeeUI;uniGUI23Chart;FireDACIBDriver;fmx;fmxdae;vclib;FireDACDBXDriver;dbexpress;IndyCore;vclx;dsnap;DataSnapCommon;emsclient;FireDACCommon;ACBr_PCNComum;RESTBackendComponents;DataSnapConnectors;VCLRESTComponents;soapserver;uniGUI23m;frxTee23;vclie;uniTools23;bindengine;DBXMySQLDriver;FireDACOracleDriver;CloudService;FireDACMySQLDriver;DBXFirebirdDriver;ACBr_PAF;ACBr_Sintegra;FireDACCommonDriver;DataSnapClient;inet;bindcompdbx;IndyIPCommon;uniGUI23VCL;ACBr_TCP;vcl;DBXSybaseASEDriver;IndyIPServer;ACBr_NFeDanfeRL;PngComponents;IndySystem;FireDACDb2Driver;dsnapcon;uniGUI23;ACBr_synapse;FireDACMSAccDriver;fmxFireDAC;FireDACInfxDriver;vclimg;TeeDB;FireDAC;ACBr_SPED;ACBr_Comum;ACBr_BoletoRL;FireDACSqliteDriver;FireDACPgDriver;ibmonitor;FireDACASADriver;ACBr_LFD;DBXOdbcDriver;FireDACTDataDriver;FMXTee;soaprtl;DbxCommonDriver;ibxpress;Tee;ACBr_NFSeDanfseRL;DataSnapServer;xmlrtl;soapmidas;DataSnapNativeClient;fmxobj;vclwinx;ibxbindings;rtl;FireDACDSDriver;DbxClientDriver;ACBr_OpenSSL;DBXSybaseASADriver;ACBr_DFeComum;CustomIPTransport;vcldsnap;SynEdit_R2019;uIndy23;ACBr_Convenio115;bindcomp;appanalytics;ACBr_Serial;DBXInformixDriver;IndyIPClient;bindcompvcl;frxDB23;TeeUI;UniGMapD2010;vclribbon;dbxcds;VclSmp;ACBr_NFCeECFVirtual;adortl;FireDACODBCDriver;DataSnapIndy10ServerTransport;ACBr_Boleto;dsnapxml;DataSnapProviderClient;dbrtl;inetdbxpress;FireDACMongoDBDriver;IndyProtocols;frx23;ACBr_SEF2;ACBr_NFSe;fmxase;$(DCC_UsePackage)</DCC_UsePackage>
     </PropertyGroup>
     <PropertyGroup Condition="'$(Base_Win64)'!=''">
